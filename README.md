@@ -25,7 +25,6 @@
 ## Datasets
 
 The experiments in this project are conducted on retinal disease classification benchmarks.  
-Please place the processed data under your local dataset directory and replace the following links with the official dataset pages or download links.
 
 - **Dataset 1:** [MultiEYE](https://huggingface.co/datasets/Luxuriant16/MultiEYE)
 - **Dataset 2:** [FIVES](https://figshare.com/articles/figure/FIVES_A_Fundus_Image_Dataset_for_AI-based_Vessel_Segmentation/19688169/1)
@@ -88,13 +87,17 @@ python infere.py \
 --split "test" \
 --device_id [SELECT_GPU_ID]
 ```
+
 ## Citation
 
 If this code is useful for your research, please citing:
 
+```
 @article{eyecoop2026,
   title   = {EyeCoOp: Knowledge Guided Prompt Learning for Generalizable Fundus Disease Classification},
   author  = {Wang JinFeng,Xie JiaQi},
   journal = {arXiv preprint arXiv:},
   year    = {2026}
 }
+
+```
